@@ -1,0 +1,30 @@
+[07-Oct-2018 10:42:08 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:08 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:08 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:43
+[07-Oct-2018 10:42:08 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:555
+[07-Oct-2018 10:42:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:08 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:08 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:43
+[07-Oct-2018 10:42:08 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:555
+[07-Oct-2018 10:42:09 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:09 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:09 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[07-Oct-2018 10:42:09 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[07-Oct-2018 10:42:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:09 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:09 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[07-Oct-2018 10:42:09 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[07-Oct-2018 10:42:10 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:10 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:10 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[07-Oct-2018 10:42:10 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[07-Oct-2018 10:42:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[07-Oct-2018 10:42:10 UTC] PHP Stack trace:
+[07-Oct-2018 10:42:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[07-Oct-2018 10:42:10 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[07-Oct-2018 10:42:10 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897

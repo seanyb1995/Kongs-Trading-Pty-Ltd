@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav {
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-color: #333;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.topnav ul li {
+    display: inline;
+}
+
+.topnav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.topnav ul li a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.hamburger {
+    display: none;
+    color: #f2f2f2;
+}
+
+.topnav_responsive {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #333;
+}
+
+.topnav_responsive ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.topnav_responsive ul li {
+    display: inline;
+}
+
+.topnav_responsive ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    // text-transform: uppercase;
+}
+
+.topnav_responsive ul li a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .topnav_responsive ul li a {
+    display: none;
+  }
+  
+  .topnav ul li a {
+      display: none;
+  }
+  .hamburger a {
+    float: right;
+    display: block;
+    padding: 14px 16px;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+    .hamburger {
+        position: relative;
+        display: block;
+        padding: 1em;
+        float: right;
+    }
+    
+    .topnav_responsive {
+      width: 100%;
+      position: relative;
+      top: 0;
+      background: #333;
+    }
+    
+    .topnav_responsive ul {
+      list-style-type: none;
+    }
+
+    .topnav_responsive ul li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #f2f2f2;
+      font-size: 1em;
+      text-transform: uppercase;
+      
+    }
+    
+    .topnav_responsive ul li a:hover {
+      display: block;
+       background-color: #ddd;
+       color: black;
+       text-decoration: none;
+    }
+    
+    .custom-logo {
+      display: inherit;
+      text-align: center;
+    }
+    
+    .topnav img {
+      padding-right: 2em;
+    }
+    
+    .menu {
+      padding-left: 0;
+    }
+}

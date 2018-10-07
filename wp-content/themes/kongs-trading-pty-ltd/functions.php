@@ -166,7 +166,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 add_filter('wp_nav_menu_items','add_new_menu_item', 10, 2);
 function add_new_menu_item( $nav, $args ) {
-    $custom_logo = '<li class="custom-logo"><img src="https://kongs-trading-pty-ltd-seanyb1995.c9users.io/wp-content/uploads/2018/10/cropped-kongs-logo-2.png"/></li>';
+    $custom_logo = '<li class="custom-logo"><img src="https://kongs-trading-pty-ltd-seanyb1995.c9users.io/wp-content/uploads/2018/10/cropped-kongs-logo-2.png" style="padding-right: 2em;"/></li>';
     $nav = $custom_logo.$nav;
     return $nav;
 }
