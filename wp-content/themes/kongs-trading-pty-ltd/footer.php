@@ -16,39 +16,26 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kongs-trading-pty-ltd' ) ); ?>"></a>
-			<div class="foot-head">
+					<div class="foot-head">
+						<div class="social-network social-circle">
+							<!-- social media -->
+								<a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+							<!-- social media -->
+								<a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+							<!-- social media -->
+								<a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+							<!-- social media -->
+								<a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a>
+							<!-- social media -->
+								<a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a>
+							</a>
+						</div>
+					</div>
 				<div class="footer-title">
-					<h3>COPYRIGHT@MASHBURGERSAUSTRALIA</h3>
-					<h3>All Rights Reserved</h3>
+					<h3> &copy; Copyright 2018. All rights reserved. Powered by Sean Buchanan</h3>
 				</div>
-		
-				<!-- burger footer logo -->
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_bloginfo('template_url') ?>/img/mb-logo.png" alt"Logo">
-				</a>
 			</div>
 				
-				
-			<div class="foot-head">
-				<div class="footer-title">
-					<h3>FOLLOW US</h3>
-				</div>
-				
-				<!-- social media -->
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_facebook.png" alt"Logo">
-				</a>
-				
-				<!-- social media -->
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_twitter.png" alt"Logo">
-				</a>
-
-				<!-- social media -->
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_instagram.png" alt"Logo">
-				</a>
-			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
