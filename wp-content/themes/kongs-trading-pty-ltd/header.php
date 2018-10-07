@@ -22,17 +22,11 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<div class="site-branding">
-			<?php
-			the_custom_logo();
-			?>
-</div><!-- .site-branding -->	
-<div class="nav-container">
+
 <?php
 wp_nav_menu( array(
-'before' => '<img></img>',
 'container_class' => 'topnav',
-'container_id' => 'myTopnav'
+'container_id' => 'myTopnav',
 ) );
 ?>
 <a href="javascript:void(0);" class="hamburger" onclick="responsive()"><i class ="fa fa-bars"></i></a>

@@ -15,17 +15,40 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kongs-trading-pty-ltd' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'kongs-trading-pty-ltd' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'kongs-trading-pty-ltd' ), 'kongs-trading-pty-ltd', '<a href="http://underscores.me/">Sean</a>' );
-				?>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kongs-trading-pty-ltd' ) ); ?>"></a>
+			<div class="foot-head">
+				<div class="footer-title">
+					<h3>COPYRIGHT@MASHBURGERSAUSTRALIA</h3>
+					<h3>All Rights Reserved</h3>
+				</div>
+		
+				<!-- burger footer logo -->
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_bloginfo('template_url') ?>/img/mb-logo.png" alt"Logo">
+				</a>
+			</div>
+				
+				
+			<div class="foot-head">
+				<div class="footer-title">
+					<h3>FOLLOW US</h3>
+				</div>
+				
+				<!-- social media -->
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_facebook.png" alt"Logo">
+				</a>
+				
+				<!-- social media -->
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_twitter.png" alt"Logo">
+				</a>
+
+				<!-- social media -->
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_bloginfo('template_url') ?>/img/icon/icon_instagram.png" alt"Logo">
+				</a>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
