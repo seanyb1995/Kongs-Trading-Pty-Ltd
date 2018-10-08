@@ -12,9 +12,15 @@ body {
 
 .topnav {
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
   background-color: #333;
+  padding: 2em 0;
+}
+
+.topnav img {
+  position: absolute;
+  top: 0;
 }
 
 .topnav ul {
@@ -31,18 +37,21 @@ body {
 }
 
 .topnav ul li {
-    display: inline;
+  padding: 0 5em;
+  display: inline;
 }
 
 .topnav ul li a {
+    position: absolute;
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 30.5px 40px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     text-transform: uppercase;
+    top: 0;
 }
 
 .topnav ul li a:hover {
@@ -56,13 +65,14 @@ body {
 }
 
 .hamburger {
+    display: absolute;
     display: none;
     color: #f2f2f2;
 }
 
 .topnav_responsive {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   background-color: #333;
 }
@@ -100,7 +110,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1263px) {
   .topnav_responsive ul li a {
     display: none;
   }
@@ -116,17 +126,19 @@ body {
   
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1263px) {
     .hamburger {
-        position: relative;
+        position: absolute;
         display: block;
         padding: 1em;
         float: right;
+        top: 0;
+        right: 0;
     }
     
     .topnav_responsive {
       width: 100%;
-      position: relative;
+      position: absolute;
       top: 0;
       background: #333;
     }
@@ -154,15 +166,17 @@ body {
     }
     
     .custom-logo {
+      position: absolute;
+      top: 0;
       display: inherit;
       text-align: center;
-    }
-    
-    .topnav img {
-      padding-right: 2em;
     }
     
     .menu {
       padding-left: 0;
     }
+}
+
+.container {
+  padding: 4.55em 0;
 }

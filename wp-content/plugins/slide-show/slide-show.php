@@ -20,7 +20,6 @@
 $slide_show_plugin_root = plugin_dir_path(__FILE__);
 $slide_show_plugin_root_url = plugin_dir_url(__FILE__);
 
-
 /* 
 * 0. Setup product post type and category taxonomy
 */

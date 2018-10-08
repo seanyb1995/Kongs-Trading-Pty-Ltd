@@ -16,14 +16,29 @@ if ( ! function_exists( 'slide_show' ) ) {
     $slideshow = new WP_Query($args);
     
 		    if( $slideshow->have_posts() ){
+		        ?>
+				<div class="cycle-slideshow"
+				    data-cycle-fx="scrollHorz"
+				    data-cycle-timeout="0"
+				    data-cycle-prev="#prev"
+				    data-cycle-next="#next"
+                >
+		        <?php
 			    while($slideshow->have_posts()) {
 			        $slideshow->the_post(); 
 			        ?>
+			        
 	                				<?php if( has_post_thumbnail() ): ?>
-	            	    				<div><?php the_post_thumbnail(); ?></div>
+	            	    				    <?php the_post_thumbnail(); ?>
 	                				<?php endif; ?>
 		        <?php
 			    }
+			    ?>	</div>
+				    <div class="center">
+					    <a href=# id="prev">Prev</a> 
+					    <a href=# id="next">Next</a>
+					</div>
+			    <?php
 	    	}else{
     	    ?>
 	        	<p>Sorry, we currently have no food products to list</p>
