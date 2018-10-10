@@ -28,3 +28,146 @@
 [07-Oct-2018 10:42:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
 [07-Oct-2018 10:42:10 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
 [07-Oct-2018 10:42:10 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[09-Oct-2018 14:05:55 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:05:55 UTC] PHP Stack trace:
+[09-Oct-2018 14:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:05:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:05:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:05:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:05:55 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:05:55 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:34
+[09-Oct-2018 14:06:08 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:06:08 UTC] PHP Stack trace:
+[09-Oct-2018 14:06:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit-tags.php:0
+[09-Oct-2018 14:06:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit-tags.php:10
+[09-Oct-2018 14:06:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:06:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:06:08 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:06:08 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:06:08 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:34
+[09-Oct-2018 14:06:13 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:06:13 UTC] PHP Stack trace:
+[09-Oct-2018 14:06:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:06:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:06:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:06:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:06:13 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:06:13 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:34
+[09-Oct-2018 14:06:29 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:06:29 UTC] PHP Stack trace:
+[09-Oct-2018 14:06:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:06:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:06:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:06:29 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:06:29 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:06:29 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:34
+[09-Oct-2018 14:07:43 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:07:43 UTC] PHP Stack trace:
+[09-Oct-2018 14:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:07:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:07:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:07:43 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:07:43 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:07:43 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:07:43 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:07:43 UTC] PHP Stack trace:
+[09-Oct-2018 14:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[09-Oct-2018 14:07:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[09-Oct-2018 14:07:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:07:43 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:07:43 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:07:43 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:07:43 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:07:55 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:07:55 UTC] PHP Stack trace:
+[09-Oct-2018 14:07:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[09-Oct-2018 14:07:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[09-Oct-2018 14:07:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:07:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:07:55 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:07:55 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:07:55 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:07:59 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:07:59 UTC] PHP Stack trace:
+[09-Oct-2018 14:07:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[09-Oct-2018 14:07:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[09-Oct-2018 14:07:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:07:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:07:59 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:07:59 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:07:59 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:08:00 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:08:00 UTC] PHP Stack trace:
+[09-Oct-2018 14:08:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[09-Oct-2018 14:08:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[09-Oct-2018 14:08:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:08:00 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:08:00 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:08:00 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:08:00 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:13:23 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:13:23 UTC] PHP Stack trace:
+[09-Oct-2018 14:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[09-Oct-2018 14:13:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[09-Oct-2018 14:13:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:13:23 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:13:23 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:13:23 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:13:23 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:13:34 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:13:34 UTC] PHP Stack trace:
+[09-Oct-2018 14:13:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[09-Oct-2018 14:13:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/post.php:12
+[09-Oct-2018 14:13:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:13:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:13:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:13:34 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:13:34 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:13:40 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:13:40 UTC] PHP Stack trace:
+[09-Oct-2018 14:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[09-Oct-2018 14:13:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[09-Oct-2018 14:13:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:13:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:13:40 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:13:40 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:13:40 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:15:07 UTC] PHP Fatal error:  Cannot redeclare slide_show_recipe() (previously declared in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php:9) in /home/ubuntu/workspace/wp-content/plugins/slide-show/inc/template-tags.php on line 61
+[09-Oct-2018 14:15:07 UTC] PHP Stack trace:
+[09-Oct-2018 14:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[09-Oct-2018 14:15:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[09-Oct-2018 14:15:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:15:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:15:07 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:15:07 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:15:07 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php:36
+[09-Oct-2018 14:16:55 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/tax-category.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[09-Oct-2018 14:16:55 UTC] PHP Stack trace:
+[09-Oct-2018 14:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:16:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:16:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:16:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:16:55 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:16:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/tax-category.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[09-Oct-2018 14:16:55 UTC] PHP Stack trace:
+[09-Oct-2018 14:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Oct-2018 14:16:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[09-Oct-2018 14:16:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:16:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:16:55 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:17:42 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/tax-category.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[09-Oct-2018 14:17:42 UTC] PHP Stack trace:
+[09-Oct-2018 14:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[09-Oct-2018 14:17:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[09-Oct-2018 14:17:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:17:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:17:42 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:17:42 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[09-Oct-2018 14:17:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/slide-show/inc/tax-category.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/slide-show/slide-show.php on line 27
+[09-Oct-2018 14:17:42 UTC] PHP Stack trace:
+[09-Oct-2018 14:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[09-Oct-2018 14:17:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[09-Oct-2018 14:17:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[09-Oct-2018 14:17:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[09-Oct-2018 14:17:42 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[09-Oct-2018 14:17:42 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305

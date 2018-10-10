@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 128px;
+  height: 128px;
+  z-index: 9999;
+}
+
+
+header {
+  background: #333;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+header > .container {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 2em;
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+  color: #f2f2f2
+}
+
+nav ul li a:hover {
+  background: #f2f2f2;
+  color: #333;
+}
+
+.hamburger {
+  position: absolute;
+  top: 0;
+  float: right;
+  text-decoration: none;
+  padding: 2em;
+  display: none;
+  transition: all 0.3s ease;
+  color: #f2f2f2
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .hamburger {
+      display: inline-block;
+    }
+    
+    nav ul li a {
+      display: none;
+    }
+  
+    #menu-item-10 > a:nth-child(1) {
+      display: inline-block;
+    }
+    
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+}

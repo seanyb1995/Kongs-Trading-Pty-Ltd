@@ -24,7 +24,9 @@ $slide_show_plugin_root_url = plugin_dir_url(__FILE__);
 * 0. Setup product post type and category taxonomy
 */
 require_once( $slide_show_plugin_root . 'inc/cpt-slide-show.php' );
-add_action('init', 'mb_custom_burger_slideshow_post_type');
+require_once( $slide_show_plugin_root . 'inc/tax-advertisement.php' );
+add_action('init', 'ktpl_slideshow_post_type');
+add_action('init', 'ktpl_advertisment_taxonomy');
 
 /*
  * 1. Template tags

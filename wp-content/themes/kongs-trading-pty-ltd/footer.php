@@ -28,14 +28,13 @@
 								<a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a>
 							<!-- social media -->
 								<a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a>
-							</a>
 						</div>
 					</div>
 				<div class="footer-title">
 					<h3> &copy; Copyright 2018. All rights reserved. Powered by Sean Buchanan</h3>
 				</div>
 			</div>
-				
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

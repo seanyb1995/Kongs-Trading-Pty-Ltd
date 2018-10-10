@@ -1,6 +1,4 @@
 footer {
-  position: fixed;
-  bottom: 0;
   text-align: center;
   background-color: #333;
 }
@@ -101,14 +99,13 @@ a.socialIcon:hover,
   position: relative;
   margin: 0 auto 0 auto;
   text-align: center;
-  width: 20px;
-  height: 20px;
-  font-size: 15px;
+  width: 40px;
+  height: 40px;
 }
 
 .social-circle a {
   margin: 0;
-  line-height: 20px;
+  line-height: 0px;
   text-align: center;
 }
 

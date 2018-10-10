@@ -123,9 +123,13 @@ function kongs_trading_pty_ltd_scripts() {
 	
 	wp_enqueue_style( 'style.min', get_template_directory_uri() . '/css/style.min.css' );
 	
+	wp_enqueue_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	
 	wp_enqueue_script( 'mytopnav', get_template_directory_uri() . '/js/mytopnav.js' );
 	
 	wp_enqueue_script( 'jquery-cycle2', get_template_directory_uri() . '/js/jquery.cycle2.min.js', array('jquery'), '20181008', true );
+	
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '20181008', true );
 	
 	wp_enqueue_script( 'kongs-trading-pty-ltd-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -162,13 +166,6 @@ require get_template_directory() . '/inc/customizer.php';
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
-}
-
-add_filter('wp_nav_menu_items','add_new_menu_item', 10, 2);
-function add_new_menu_item( $nav, $args ) {
-    $custom_logo = '<li class="custom-logo"><img src="https://kongs-trading-pty-ltd-seanyb1995.c9users.io/wp-content/uploads/2018/10/cropped-kongs-logo-2.png"/></li>';
-    $nav = $custom_logo.$nav;
-    return $nav;
 }
 
 

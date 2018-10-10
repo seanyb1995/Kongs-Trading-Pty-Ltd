@@ -10,7 +10,6 @@
  */
 
 ?>
-
 <!DOCTYPE html>
 <html  <?php language_attributes(); ?>>
 <head>
@@ -21,16 +20,14 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+<header>
 	<div class="container">
+		<?php the_custom_logo(); ?>
 		<nav>
 			<?php
-			wp_nav_menu( array(
-			'container_class' => 'topnav',
-			'container_id' => 'myTopnav',
-			) );
+			wp_nav_menu();
 			?>
 		</nav>
 	</div>
-	<a href="javascript:void(0);" class="hamburger" onclick="responsive()"><i class ="fa fa-bars"></i></a>
-</body>
-</html>
+</header>
+<div id="content" class="site-content">

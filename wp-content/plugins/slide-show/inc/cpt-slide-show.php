@@ -2,8 +2,8 @@
 
 // Register Custom Post Type
 
-if(!function_exists('mb_custom_burger_slideshow_post_type')){
-	function mb_custom_burger_slideshow_post_type() {
+if(!function_exists('ktpl_slideshow_post_type')){
+	function ktpl_slideshow_post_type() {
 
 	$labels = array(
 		'name'                  => _x( 'Slideshow', 'Post Type General Name', 'text_domain' ),
