@@ -27,9 +27,11 @@ $recipe_plugin_root_url = plugin_dir_url(__FILE__);
 require_once( $recipe_plugin_root . 'inc/cpt-recipe.php' );
 require_once( $recipe_plugin_root . 'inc/tax-category.php' );
 require_once( $recipe_plugin_root . 'inc/tax-country.php' );
+require_once( $recipe_plugin_root . 'inc/tax-meal.php' );
 add_action('init', 'ktpl_recipe_post_type');
 add_action('init', 'ktpl_list_category_taxonomy');
 add_action('init', 'ktpl_list_country_taxonomy');
+add_action('init', 'ktpl_list_meal_taxonomy');
 
 
 /* --------------------------------------------------------------------------------

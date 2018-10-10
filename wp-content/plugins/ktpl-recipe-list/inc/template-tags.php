@@ -24,7 +24,6 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
         $terms_country = get_terms('country');
         
         //print_r($terms_category);
-
         
         
         /*
@@ -169,6 +168,59 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
 	       <?php else: ?>
 	           <p>Sorry, we currently have no food products to list</p>
 	   <?php endif;
+    } //end of function
+}
+
+if ( ! function_exists( 'ktpl_recipe_list_recommended' ) ) {
+    function ktpl_recipe_list_recommended() {
+    // get ingrients posts from database
+
+    ?>
+    <div class="container">
+    <h3>Recommended Recipe</h3>
+    <?php
+
+    $tax_query = array(
+        array(
+            'taxonomy' => 'category',
+            'field' => 'term_id',
+            'terms' => 15
+        )
+
+      );
+    $args = array(
+        'post_type' => 'recipe',
+        'orderby' => 'menu_order',
+        'order' => 'ASC',
+        'tax_query' => $tax_query
+        );
+
+    $recipe_recommended = new WP_Query($args);
+
+        if( $recipe_recommended->have_posts() ): ?>
+        <div class="row">
+      <?php while($recipe_recommended->have_posts()): $recipe_recommended->the_post(); ?>
+
+          <a href="<?php the_permalink();?>">
+            <?php if( has_post_thumbnail() ): ?>
+        <div class="recipe-individual-container">
+          <div id="recipe-thumbnail" class="col">
+              <?php the_post_thumbnail( array( 250,150) ); ?>
+                  </div>
+                  <div class="col">
+                      <div class="recipe-title">
+                          <h3><title="View Food Profile"><?php the_title();?></title></h3>
+                      </div>
+                  </div>
+              </div>
+      <?php endif; ?>
+      <?php the_excerpt();?>
+    </a>
+        <?php endwhile; ?>
+        </div>
+       <?php else: ?>
+           <p>Sorry, we currently have no food products to list</p>
+    <?php endif;
 
 
     } //end of function
