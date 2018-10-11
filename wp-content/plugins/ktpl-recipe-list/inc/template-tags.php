@@ -12,6 +12,7 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
         // set catrgory var fron GET data
         $category = $_GET['category'];
         $country = $_GET['country'];
+        $meal = $_GET['meal'];
         
         // setup empty var for the final output of our filter form
         $filter_form = "";
@@ -22,19 +23,15 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
         */
         $terms_category = get_terms('category');
         $terms_country = get_terms('country');
-        
-        //print_r($terms_category);
-        
+        $terms_meal = get_terms('meal');
         
         /*
         	if there are any terms in category then begin outputting
         	the HTML require for the form to output
         */
         ?>
-        <div class="container">
-            <h3>Recommended Recipe</h3>
-        
-        
+        <div id="recipe-filter" class="container">
+        <div class="row">
         <!-- filter form -->
         <form action='' method='get'>
         <?php
@@ -62,7 +59,7 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
         // countries filter 
         if($terms_country){
             $filter_form .= "<label for='country'>Filter by Country:</label>";
-            $filter_form .= "<select name='country' id='category' onchange='this.form.submit()'>";
+            $filter_form .= "<select name='country' id='country' onchange='this.form.submit()'>";
                 $filter_form .= "<option value=''>All</option>";
                 //  loop through each term and output as an <option> in a <select> dropdown
                 foreach ($terms_country as $term){
@@ -77,10 +74,30 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
                 }
             $filter_form .= "</select>";
         }
+        
+                // countries filter 
+        if($terms_meal){
+            $filter_form .= "<label for='meal'>Filter by Meal:</label>";
+            $filter_form .= "<select name='meal' id='meal' onchange='this.form.submit()'>";
+                $filter_form .= "<option value=''>All</option>";
+                //  loop through each term and output as an <option> in a <select> dropdown
+                foreach ($terms_meal as $term){
+                    /* if the current term/category is active as a filter
+                        then make that option selected in the dropdown
+                    */
+                    $selected = "";
+                    if($meal == $term->term_id){
+                        $selected = "selected";
+                    }
+                    $filter_form .= "<option value='{$term->term_id}' $selected >{$term->name}</option>";
+                }
+            $filter_form .= "</select>";
+        }
     
         echo $filter_form;
         ?>
         </form>
+        </div>
         
         
         <?php 
@@ -113,6 +130,16 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
             );
         }
         
+                if( $meal != "" ){
+            $tax_query_meal = array(
+                array(
+                    'taxonomy' => 'meal',
+                    'field' => 'term_id',
+                    'terms' => $meal
+                )
+            );
+        }
+        
         
         /*
         	if var tax_query is set, create an $args var with 
@@ -120,14 +147,15 @@ if ( !function_exists( 'ktpl_recipe_list_withfilter' ) ) {
         	taxonomy term.
         */
         
-        if($category !="" || $country !=""){
+        if($category !="" || $country !="" || $meal !="" ){
             $args = array(
                 'post_type' => 'recipe',
                 'orderby' => 'menu_order',
                 'order' => 'ASC',
                 'tax_query' => array(
                     $tax_query_category,
-                    $tax_query_country
+                    $tax_query_country,
+                    $tax_query_meal
                 )
             );
         }else{
@@ -177,7 +205,7 @@ if ( ! function_exists( 'ktpl_recipe_list_recommended' ) ) {
 
     ?>
     <div class="container">
-    <h3>Recommended Recipe</h3>
+    <h1 id="recipe-recommended-title">Recommended Recipe</h1>
     <?php
 
     $tax_query = array(

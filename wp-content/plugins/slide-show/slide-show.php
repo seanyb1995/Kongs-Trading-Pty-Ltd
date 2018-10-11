@@ -21,7 +21,7 @@ $slide_show_plugin_root = plugin_dir_path(__FILE__);
 $slide_show_plugin_root_url = plugin_dir_url(__FILE__);
 
 /* 
-* 0. Setup product post type and category taxonomy
+* 0. Setup product post type and slideshow taxonomy
 */
 require_once( $slide_show_plugin_root . 'inc/cpt-slide-show.php' );
 require_once( $slide_show_plugin_root . 'inc/tax-advertisement.php' );

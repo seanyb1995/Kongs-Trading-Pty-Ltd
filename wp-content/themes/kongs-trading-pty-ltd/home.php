@@ -16,7 +16,7 @@ get_header();
 ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-				<?php slide_show_recipe(); ?>
+				<?php slide_show(); ?>
 				<?php ktpl_recipe_list_recommended(); ?>
 				<div class="container">
 					<div class="row">

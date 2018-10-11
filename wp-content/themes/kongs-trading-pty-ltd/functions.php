@@ -125,6 +125,7 @@ function kongs_trading_pty_ltd_scripts() {
 	
 	wp_enqueue_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	
+	
 	wp_enqueue_script( 'mytopnav', get_template_directory_uri() . '/js/mytopnav.js' );
 	
 	wp_enqueue_script( 'jquery-cycle2', get_template_directory_uri() . '/js/jquery.cycle2.min.js', array('jquery'), '20181008', true );

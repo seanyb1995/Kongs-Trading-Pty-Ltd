@@ -171,3 +171,81 @@
 [09-Oct-2018 14:17:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
 [09-Oct-2018 14:17:42 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
 [09-Oct-2018 14:17:42 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:305
+[10-Oct-2018 09:16:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ktpl_list_type_taxonomy' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2018 09:16:00 UTC] PHP Stack trace:
+[10-Oct-2018 09:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Oct-2018 09:16:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Oct-2018 09:16:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 09:16:00 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[10-Oct-2018 09:16:00 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[10-Oct-2018 09:16:00 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[10-Oct-2018 09:16:00 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[10-Oct-2018 09:16:00 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[10-Oct-2018 09:16:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ktpl_list_type_taxonomy' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2018 09:16:14 UTC] PHP Stack trace:
+[10-Oct-2018 09:16:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Oct-2018 09:16:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Oct-2018 09:16:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 09:16:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[10-Oct-2018 09:16:14 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[10-Oct-2018 09:16:14 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[10-Oct-2018 09:16:14 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[10-Oct-2018 09:16:14 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[10-Oct-2018 09:16:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ktpl_list_type_taxonomy' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2018 09:16:18 UTC] PHP Stack trace:
+[10-Oct-2018 09:16:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[10-Oct-2018 09:16:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[10-Oct-2018 09:16:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[10-Oct-2018 09:16:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 09:16:18 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[10-Oct-2018 09:16:18 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[10-Oct-2018 09:16:18 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[10-Oct-2018 09:16:18 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[10-Oct-2018 09:16:18 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[10-Oct-2018 09:16:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ktpl_list_type_taxonomy' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2018 09:16:20 UTC] PHP Stack trace:
+[10-Oct-2018 09:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Oct-2018 09:16:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Oct-2018 09:16:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Oct-2018 09:16:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[10-Oct-2018 09:16:20 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[10-Oct-2018 09:16:20 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[10-Oct-2018 09:16:20 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[10-Oct-2018 09:16:20 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[11-Oct-2018 04:43:11 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:11 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:11 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:43
+[11-Oct-2018 04:43:11 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:555
+[11-Oct-2018 04:43:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:11 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:11 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:43
+[11-Oct-2018 04:43:11 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:555
+[11-Oct-2018 04:43:12 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:12 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:12 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[11-Oct-2018 04:43:12 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[11-Oct-2018 04:43:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:12 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:12 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[11-Oct-2018 04:43:12 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[11-Oct-2018 04:43:12 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:12 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:12 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[11-Oct-2018 04:43:12 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[11-Oct-2018 04:43:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/inc/cpt-custom-burger.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/ktpl-order-system/ktpl-order-system.php on line 123
+[11-Oct-2018 04:43:12 UTC] PHP Stack trace:
+[11-Oct-2018 04:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[11-Oct-2018 04:43:12 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:178
+[11-Oct-2018 04:43:12 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1897
+[11-Oct-2018 04:48:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'mb_customer_order_options_page' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[11-Oct-2018 04:48:40 UTC] PHP Stack trace:
+[11-Oct-2018 04:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[11-Oct-2018 04:48:40 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[11-Oct-2018 04:48:40 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[11-Oct-2018 04:48:40 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[11-Oct-2018 04:48:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286

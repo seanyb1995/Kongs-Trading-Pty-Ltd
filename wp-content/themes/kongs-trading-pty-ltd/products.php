@@ -17,7 +17,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 				<?php slide_show_product(); ?>
-				<?php ktpl_recipe_list_withfilter(); ?>
+				<?php ktpl_product_list_withfilter(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php

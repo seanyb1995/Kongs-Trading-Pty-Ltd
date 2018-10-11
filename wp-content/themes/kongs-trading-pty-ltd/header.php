@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <header>
 	<div class="container">
 		<?php the_custom_logo(); ?>
